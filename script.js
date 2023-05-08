@@ -1,13 +1,10 @@
-let btn = document.querySelector("#button");
-const textarea = document.querySelector("#textarea")
+var btn = document.querySelector("#button");
+var inputText = Number(document.querySelector("#textarea-input")); 
+var outputText = document.querySelector("#output-text");
 
-let user_name =  prompt("What's your name?");
+function isLeepYear(){
+    var showInputText = inputText.value;
+    var output = showInputText * showInputText;
 
-btn.addEventListener("click", callback)
-
-
-
-function callback(){
-    console.log("Clicked")
-    alert("Hello,"+ name);
+    outputText.innerText = output;
 }
