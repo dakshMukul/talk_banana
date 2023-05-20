@@ -1,20 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>talk_banana</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <Header>
-        <h1>Talk Banana</h1>
-    </Header>
-    
-    <textarea name="" id="textarea-input" cols="30" rows="1" placeholder="Enter a year..."></textarea>
-    <button id="button" onclick="showOutput()">Translate</button>
-    <textarea id="output-text" cols="30" rows="10"></textarea>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Talk Banana</h1>
+    </header>
+
+    <section>
+        
+      <div class="container-textarea">
+
+        <div class="input-div-textarea div-textarea">
+            <div class="lang-div"><p>English</p></div>
+            <input
+             class="input-textarea textarea" 
+             type="text"
+             placeholder="Enter text"
+            ></input>
+        </div>
+
+        <div class="output-div-textarea div-textarea">
+            <div class="lang-div"><p>Banana talk</p></div>
+          <input
+            class="output-textarea textarea"
+            type="text"
+            placeholder="Translation"
+          ></input>
+        </div>
+
+      </div>
+    </section>
+
+    <footer id="footer">
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, eum
+        voluptatum, architecto magni rerum commodi sint maiores veniam
+        accusantium at maxime modi. Fuga ipsa laudantium nihil tempora excepturi
+        quod ducimus minima! Consequuntur.
+      </p>
+    </footer>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
