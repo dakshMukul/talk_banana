@@ -1,6 +1,6 @@
-var btn = document.querySelector("#button");
-var inputText = document.querySelector("#textarea-input");
-var outputText = document.querySelector("#output-text");
+var btn = document.querySelector('.btn');
+var inputText = document.querySelector('.input-textarea');
+var outputText = document.querySelector('.output-textarea');
 const url = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json";
 
 var urlGenerator = (text) => {
@@ -14,4 +14,4 @@ function showOutput() {
     .then(json => outputText.innerText = `${json.contents.translated}`);
 }
 
-// outputText.innerText = urlGenerator("I am Mukul")
+
