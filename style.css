@@ -5,10 +5,9 @@
     box-sizing: border-box;
 }
 
-font-family: 'Roboto', sans-serif;
 header{
     height: 10vh;
-    background-color: rgb(61, 48, 48);
+    background-color: rgb(84, 58, 42);
     text-align: center;
 }
 
@@ -26,18 +25,19 @@ header h1{
     height: 90vh;
     flex-direction: column;
     align-items: center;
+    background-color: aliceblue;
     background-image: url(./img/banana.jpg);
     background-size: cover;
 }
 .container-textarea{
+    margin-top: 3rem;
     border: 1px solid #323232;
     width: 70vw;
     height: 40vh;
     display: flex;
-    margin: 1rem;
     justify-content: center;
     align-items: center;
-    /* border-radius: 10px; */
+    border-radius: 10px;
     box-shadow: 2px 2px 5px #131313;
 }
 .div-textarea{
@@ -52,36 +52,32 @@ header h1{
     background: none;
     width: 50%;
     padding: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
 }
 .output-div-textarea{
     background-color: #ececec89;
 }
 .button-div{
-    margin-top: 0;
-    margin-bottom: 1rem;
+    position: absolute;
+    top: 30%;
+    color: rgb(84, 58, 42);
 }
-.button{
-    padding: 0.4rem 1rem 0.4rem 1rem;
-    border: black solid 1px;
-    border-radius: 50px;
-    background-color:  rgb(61, 48, 48);
-    color: aliceblue;
-    font-weight: bolder;
-    font-family: 'Homemade Apple', cursive;
+.button-div:hover{
     
 }
 .footer-div{
     position: absolute;
-    background-color: rgba(37, 15, 15, 0.258);
+    background-color: rgba(84, 58, 42, 0.208);
     top:60vh;
     margin: 1rem;
 }
 .footer-div h1{
     text-align: center;
-    font-family: 'Homemade Apple', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 .footer-div p{
-    font-family: 'Kalam', cursive;
+    font-family: 'Roboto', sans-serif;
     font-size: large;
     padding: 0.5rem;
 }
