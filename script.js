@@ -1,7 +1,7 @@
-var btn = document.querySelector('.btn');
-var inputText = document.querySelector('.input-textarea');
-var outputText = document.querySelector('.output-textarea');
-const url = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json";
+var btn = document.querySelector('.button');
+var inputText = document.querySelector('.input');
+var outputText = document.querySelector('.output');
+const url = "https://api.funtranslations.com/translate/minion.json";
 
 var urlGenerator = (text) => {
   let outputUrl = `${url}?text=${text}`;
@@ -13,5 +13,4 @@ function showOutput() {
     .then((response) => response.json())
     .then(json => outputText.innerText = `${json.contents.translated}`);
 }
-
 
